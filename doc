@@ -1,0 +1,15 @@
+Eu como portador de diversas atividades durante o dia gostaria de um app de registro de tarefas diárias, em forma de lista. 
+
+Entidades: Tarefa, Usuario
+
+Usuario: tx_nome, tx_login, tx_senha, dt_cadastro, dt_nascimento
+
+Tarefa: fk_usuario, dt_cadastro, dt_vigencia, tx_titulo, tx_descricao, in_status
+
+Funcionalidades:
+
+    - Registro de usuário
+    - Login
+    - CRUD tarefa
+    - Marcar como feita
+    - Caso não termine a tarefa repassar para o dia seguinte
